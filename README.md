@@ -1,24 +1,19 @@
-# README
+# RESTful API to index a pages content.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Goal is to "parse the page content and store it's content - in this case to store the content that is found inside the tags h1, h2 and h3 and the links.""
 
-Things you may want to cover:
+## Although you have freedom to show your skills, the requirements below must be fulfilled:
 
-* Ruby version
+*Your code must be written in Ruby / Ruby on Rails*
+*The API must have at least two endpoints:
+*One that receives a url and indexes the content
+*One that lists previously stored urls
 
-* System dependencies
+## endpoints:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*One endpoint should receive the URL of the page, grab it's content and store it's content with the tags h1, h2 and h3 and the links
+*The other endpoint should list the urls and content stored in the database
+*The API must store only content
+*Inside html header tags (H1, H2 and H3)
+*Links urls
+*project must have a readme
