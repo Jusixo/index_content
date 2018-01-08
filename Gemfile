@@ -28,6 +28,7 @@ gem 'rspec_api_documentation'
 
 gem 'factory_bot'
 
+gem 'active_model_serializers'
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
